@@ -9,6 +9,7 @@ public class Resolucao1{
         System.out.println("Digite um número");
         x=leitura.nextDouble();
 
+        while(x!=1){
         if(x%2==0){
             x=x/2.0;
         }
@@ -16,6 +17,6 @@ public class Resolucao1{
             x = 3 * x + 1;
         }
 
-        System.out.println(x);
-    }
+        System.out.print(x + "-> ");
+    }}
 }
